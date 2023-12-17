@@ -1,4 +1,4 @@
-Lab 1: Stacks
+# Lab 1: Stacks
 
 F28SG – Introduction to Data Structures and Algorithms (6 marks)
 The project is organized as follows:
@@ -18,7 +18,7 @@ The disciplinary action for plagiarism is an award of an F grade (fail) for the 
 plagiarism will result in Compulsory Withdrawal from the university.
 
 
-Q1) Write unit tests for the Push and Pop operations (2 points)
+## Q1) Write unit tests for the Push and Pop operations (2 points)
 First write unit tests for the push and pop operations in the StackTest.java class. To start, an
 empty stack st with space for 2 elements has been provided, together with a test method for each
 operator.
@@ -33,7 +33,7 @@ Note that for 2 and 3 you need to check that the StackException is raised when a
 from an empty stack or pushing to a full stack (see lecture 2 for how to test for exceptions).
 Run JUnit. These tests should all succeed!
 
-Q2) Reverse an Array Using a Stack (1 point)
+## Q2) Reverse an Array Using a Stack (1 point)
 In Reverse.java there is a method
 public static void reverse(String[] arr){
 // your code here
@@ -49,7 +49,7 @@ State the Big-Oh complexity as a comment above the reverse method.
 Hint! If you push all elements of arr (in the correct order) to a stack, and then pop each element and store them in
 the correct place in the array, then they will come out in the reversed order.
 
-Q3) A Polish Notation Calculator [challenging] (2 points)
+## Q3) A Polish Notation Calculator [challenging] (2 points)
 Arithmetic operations are normally written in an infix form, for example: 5 + 2 or 3 - 5 + 2. However, to avoid
 ambiguity, we something need to use bracketing. E.g. how should we read 3 - 5 + 2?
 1. 3 - 5 + 2 = (3 - 5) + 2 = -2 + 2 = 0
@@ -106,7 +106,7 @@ you call the applyOp method. You can find out what the operator character is wit
 on Strings, e.g. op.equals(“+”) which returns true or false. At the end of the iteration, the
 stack should contain one element, which you need to convert to an integer and return.
 
-Q4) Code Quality (1 point)
+## Q4) Code Quality (1 point)
 Code quality is vitally important for so many reasons. Not least, for readability and maintainability, not
 just for yourself but for others too since in industry, software engineering is almost always a group
 exercise. Real world software engineering is mostly about refactoring and testing code, rather than
